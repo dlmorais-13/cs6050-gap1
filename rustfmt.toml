@@ -1,0 +1,4 @@
+# Example rustfmt.toml configurations
+max_width = 120
+hard_tabs = false
+tab_spaces = 2

@@ -1,0 +1,25 @@
+[package]
+name = "gap_1"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rand = "0.10.2"
+
+[lib]
+path = "src/lib.rs"
+
+[[bench]]
+name = "karatsuba_bench"
+harness = false
+
+[[bench]]
+name = "powersort_bench"
+harness = false
+
+[[bench]]
+name = "closest_pair_bench"
+harness = false
+
+[dev-dependencies]
+divan = "0.1.21"
